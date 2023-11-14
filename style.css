@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image:url(./img/5ad3aab3259ff\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+a{
+    color: rgb(11, 12, 13);
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 120px;
+    display: flex;
+    margin-left: 15%;
+}
+.number{
+    margin-right: 5%;
+}
+.line{
+    font-family: 'Krona One', sans-serif;
+    color: aliceblue;
+    font-size: 55px;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+.sign{
+    float: right;
+}
+.foot{
+    background-image: url(img/Group\ 1.png);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    height: 168px;
+    width: 100%;
+}
+.sea{
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 12%;
+    margin-top: 3%;
+}
+.hill{
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 18%;
+    margin-top: 5%;
+}
+.passport{
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.location{
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 17%;
+    margin-top: 5%;
+}
+.gallery{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.gallery1{
+    margin-left: 15%;
+    margin-top: 2.5%;
+}
+.description{
+    margin-left: 15%;
+}
+.box{
+    margin-left: 15%;
+    background-repeat: no-repeat;
+    display: block;
+}
+.square{
+    color: black;
+    font-size: 25px;
+    margin-left: 13%;
+    margin-bottom: 20%;
+}
+.court{
+    color: black;
+    font-size: 25px;
+    margin-top: 15%;
+    margin-left: 12.5%;
+}
+.terrace{
+    color: black;
+    font-size: 25px;
+    margin-left: 45%;
+    margin-top: -20%;
+}
+.balcon{
+    color: black;
+    font-size: 25px;
+    margin-left: 45%;
+    margin-top: 40px;
+}
+.floor{
+    color: black;
+    font-size: 25px;
+    margin-left: 80%;
+    margin-bottom: 30%;
+}
+.park{
+    color: black;
+    font-size: 25px;
+    margin-left: 80%;
+    margin-top: 30%;
+}
+.picture1{
+    color: black;
+    
+}
+.desc1{
+    color: black;
+}
+.price1{
+    color: black;
+    margin-right: 5%;
+}
+.number1{
+    color: black;
+}
+.home1{
+    color: black;
+}
+.header2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #A99C19;
+}
+.footer{
+    background-color: black;
+    color: aliceblue;
+    height: 100vh;
+    width: 100%
+}
+.data{
+    margin-top: 5%;
+    margin-left: 40%;
+}
+.question{
+    margin-top: 5%;
+}
+a:hover{
+    color: blue;
+}
+.price{
+    margin-left: 15%;
+    margin-top: 2.5%;
+}
+.right-side{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+}
+.left-side{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+}
+.page{
+    
+    width: 100%;
+}
+.description1{
+    margin-left: 15%;
+}
+.picture{
+    color: aliceblue;
+}
+.desc{
+    color: aliceblue;
+}
+.number{
+    color: aliceblue;
+}
+.price2{
+    color: aliceblue;
+}
+.number{
+    color: aliceblue;
+}
+.footer1{
+    background-color: black;
+    color: aliceblue;
+    height: 100%;
+    width: 100%;
+}
+@media only screen and (max-width:900px) {
+    html,body,.footer1,.description1{
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .header2{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
